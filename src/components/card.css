@@ -1,0 +1,30 @@
+.card {
+  border: 1px solid #000;
+  background-color: #eee;
+  width: 200px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card ul ul:last-child li {
+  background-color: #444;
+  width: fit-content;
+  margin-bottom: 5px;
+  padding: 2px 8px;
+  border-radius: 50px;
+  color: #fff;
+}
