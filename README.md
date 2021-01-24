@@ -12,7 +12,8 @@ You can test logging into the site by signing in with the following credentials:
 
 ## Details
 
-This was built to test different solutions for logging into a site and also to protect different routes. It was one of two demos I made surrounding authentication.
+This was built to test different solutions for logging into a site and also to protect different routes. It was one of two demos I made surrounding authentication.\
+Admin users for this example are held in an array. These could be stored on a database and linked to a permissions table for a production environment.
 
 <br/>
 
