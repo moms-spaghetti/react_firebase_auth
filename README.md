@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# React Firebase Auth
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created this using React combined with Firebase for testing various solutions to protect a site behind authentication.\
+<br/>
+[View Demo](https://moms-spaghetti-reactfirebaseauth.netlify.app/)\
+You can test logging into the site by signing in with the following credentials:\
 
-## Available Scripts
+- testinguser@mail.com
+- GreyHound123!
 
-In the project directory, you can run:
+<br/>
 
-### `npm start`
+## Details
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This was built to test different solutions for logging into a site and also to protect different routes. It was one of two demos I made surrounding authentication.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br/>
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- HTML
+- CSS
+- Javascript
+- Create React App
+- uuid
+- Firebase
+  <br/><br/>
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repo as instructed below and download npm modules.
+<br/><br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Download and install npm modules.
+A firebase account.
+A .env file in the root folder
+<br/><br/>
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Clone the repo
+   ```sh
+   git clone https://github.com/moms-spaghetti/react_firebase_auth.git
+   ```
+2. Download the required npm modules
+   ```sh
+   npm i
+   ```
+3. Create a firebase account with a new application. One the account and project are created, create a realtime database with the default settings and a new web application. Name the application and take note of the details at the end. They are required for the .env file.
+4. In firebase enable Email/Password as a sign-in method. Authentication > Sign-in method.
+5. Still in firebase, create a new user. Authentication > Users.
+6. Create a .env file in the root directory with the below entries. Fill in the details for each entry from the details provided at the end of step 3.
+   ```sh
+   REACT_APP_FIREBASE_KEY=
+   REACT_APP_FIREBASE_DOMAIN=
+   REACT_APP_FIREBASE_DATABASE=
+   REACT_APP_FIREBASE_PROJECT_ID=
+   REACT_APP_FIREBASE_STORAGE_BUCKET=
+   REACT_APP_FIREBASE_SENDER_ID=
+   REACT_APP_FIREBASE_APP_ID=
+   ```
+7. Start the application
+   ```sh
+   npm start
+   ```
+   <br/><br/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+After opening the page, log in using the details at the top of this readme file.
+<br/><br/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contact
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Email](mailto:williamedwards36@aol.com)
+<br/><br/>

@@ -18,8 +18,7 @@ const App = () => {
   const { currentUser } = useContext(AuthContext);
   const adminUsers = useContext(AdminUsersContext);
   const mockData = useContext(DataContext);
-  // console.log(adminUsers);
-  //currentUser.email.split("@").pop() === "schoolofcode.co.uk"
+
   return (
     <div>
       <Switch>

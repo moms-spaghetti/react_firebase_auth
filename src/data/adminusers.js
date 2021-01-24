@@ -1,5 +1,2 @@
-const adminusers = [
-  { user: "admin", email: "admin@schoolofcode.co.uk" },
-  { user: "admin", email: "admin@gmail.com" },
-];
+const adminusers = [{ user: "admin", email: "testinguser@mail.com" }];
 export default adminusers;
