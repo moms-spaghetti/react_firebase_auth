@@ -66,7 +66,7 @@ A .env file in the root folder
    ```sh
    npm start
    ```
-   <br/><br/>
+   <br/>
 
 ## Usage
 
